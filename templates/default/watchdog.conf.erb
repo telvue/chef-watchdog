@@ -1,0 +1,5 @@
+<% node['watchdog']['config'].each do |option| %>
+  <% option.each do |key,value| %>
+<%= key %>=<%= value %>
+  <% end %>
+<% end %>
