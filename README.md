@@ -1,4 +1,4 @@
-Description [ ![Codeship Status for TheSerapher/chef-watchdog](https://www.codeship.io/projects/73c2f710-7468-0130-1b76-12313d14444b/status?branch=master)](https://www.codeship.io/projects/2098)
+Description [ ![Codeship Status for Bigpoint/chef-watchdog](https://www.codeship.io/projects/58d93790-746a-0130-3881-12313d33feba/status?branch=master)](https://www.codeship.io/projects/2099)
 ===========
 
 Requirements
