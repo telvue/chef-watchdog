@@ -24,6 +24,7 @@ action :add do
   end
   new_resource.updated_by_last_action(true) if r.updated_by_last_action?
   r = template "/etc/watchdog.d/#{new_resource.name}" do
+    cookbook 'watchdog'
     source 'service.erb'
     variables( 'test_command' => new_resource.test, 'repair_command' => new_resource.repair )
     mode '750'
